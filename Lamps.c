@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+    int n,k,x,y,b,c;
+    scanf("%d%d%d%d",&n,&k,&x,&y);
+    b=k*x;
+    n=n-k;
+    if(x>y)
+    {
+    c=n*y;
+    }
+    else
+    {
+    c=n*x;    
+    }
+    printf("%d",b+c);
+}
