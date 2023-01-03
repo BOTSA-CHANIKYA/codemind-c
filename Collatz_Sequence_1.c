@@ -8,14 +8,13 @@ int main()
         if(a%2==0)
         {
             printf("%d ",a);
-            b=a/2;
+            a=a/2;
         }
         else
         {
             printf("%d ",a);
-            b=(3*a)+1;
+            a=(3*a)+1;
         }
-        a=b;
     }
     printf("1");
 }
