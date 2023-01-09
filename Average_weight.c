@@ -1,8 +1,13 @@
 #include<stdio.h>
+void aw(int x,int y,int z)
+{
+    int a;
+    a=x*3-y-z;
+    printf("%d",a);
+}
 int main()
 {
-    int a,s,d,x;
-    scanf("%d%d%d",&x,&a,&s);
-    d=(3*x-a-s);
-    printf("%d",d);
+    int x,y,z,a;
+    scanf("%d%d%d",&x,&y,&z);
+    aw(x,y,z);
 }
